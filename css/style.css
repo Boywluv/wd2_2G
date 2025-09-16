@@ -3,15 +3,19 @@
     margin: 0%;
     padding: 0%;
 }
+   header img {
+        width: 200px;
+ }
+.name {color: #AE7386;}
+@media (min-width: 500px) {
+header img {
+        margin-left: 30%;
+ }
+}
 
-
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     header img {
         width: 150px;
 
     }
 }
-@media (min-width: 1024px) { header img {
-        width: 150px;
-
-    }}
