@@ -6,8 +6,9 @@
    header img {
         width: 200px;
  }
+ 
 .name {color: #AE7386;}
-@media (min-width: 500px) {
+@media (min-width: 760px) {
 header img {
         margin-left: 30%;
  }
