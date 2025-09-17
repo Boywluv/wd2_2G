@@ -3,15 +3,29 @@
     margin: 0%;
     padding: 0%;
 }
-   header img {
-        width: 200px;
- }
- 
-.name {color: #AE7386;}
-@media (min-width: 760px) {
+
 header img {
-        margin-left: 30%;
- }
+    width: 200px;
+}
+
+.name {
+    color: #AE7386;
+}
+
+.dove h2 {
+    color: #AE7386;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 760px) {
+    .profile {
+        padding-left: 50%;
+    }
 }
 
 @media (min-width: 1024px) {
