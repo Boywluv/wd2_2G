@@ -4,10 +4,20 @@
     padding: 0%;
 }
 
-header img {
-    width: 200px;
+
+.zalando-sans-semiexpanded {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
 }
 
+header img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+header h2 {text-size-adjust: 100px;}
 .name {
     color: #AE7386;
 }
@@ -21,6 +31,60 @@ header img {
     justify-content: center;
     align-items: center;
 }
+
+.ram {
+    border: 15px solid #bea7af;
+}
+
+.whit {
+    padding: 40px;
+}
+
+.dove {
+    margin-top: 20px;
+}
+
+.il {
+    text-align: center;
+    background-color: #c096a3;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.pho {
+    text-align: center;
+    background-color: #c096a3;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+     margin-top: 10px;
+}
+
+.in {
+    text-align: center;
+    background-color: #c096a3;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+     margin-top: 10px;
+}
+
+.htc {
+    text-align: center;
+    background-color: #c096a3;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+     margin-top: 10px;
+}
+
+
 
 @media (min-width: 760px) {
     .profile {
