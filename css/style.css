@@ -5,11 +5,14 @@
 }
 
 
-.zalando-sans-semiexpanded {
-  font-family: "Zalando Sans SemiExpanded", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100%;
-  font-style: normal;
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 header img {
@@ -17,13 +20,16 @@ header img {
     margin-left: 100px;
 }
 
-header h2 {text-size-adjust: 100px;}
+header h2 {
+    font-size: 20px;
+}
+
 .name {
     color: #AE7386;
 }
 
 .dove h2 {
-    color: #AE7386;
+    color: #ab7f8d;
 }
 
 .body {
@@ -61,7 +67,7 @@ header h2 {text-size-adjust: 100px;}
     font-size: 16px;
     padding: 15px;
     margin: 5px;
-     margin-top: 10px;
+    margin-top: 10px;
 }
 
 .in {
@@ -71,7 +77,7 @@ header h2 {text-size-adjust: 100px;}
     font-size: 16px;
     padding: 15px;
     margin: 5px;
-     margin-top: 10px;
+    margin-top: 10px;
 }
 
 .htc {
@@ -81,20 +87,123 @@ header h2 {text-size-adjust: 100px;}
     font-size: 16px;
     padding: 15px;
     margin: 5px;
-     margin-top: 10px;
+    margin-top: 10px;
 }
 
+.port h2 {
+    color: #ab7f8d;
+}
+
+.port {
+    margin-top: 20px;
+}
+
+.kav img {
+    border-radius: 3%;
+    width: 340px;
+}
+
+.kav {
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    border-color: #bea7af;
+    margin-top: 10px;
+}
+
+.akc img {
+    border-radius: 3%;
+    width: 340px;
+}
+
+.akc {
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    border-color: #bea7af;
+    margin-top: 10px;
+}
+
+
+.knih img {
+    border-radius: 3%;
+    width: 340px;
+}
+
+.knih {
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    border-color: #bea7af;
+    margin-top: 10px;
+}
+
+.kon h2 {
+    color: #ab7f8d;
+}
+
+.kon {
+    margin-top: 20px;
+}
+
+.mai {
+    margin-top: 10px;
+}
+
+.insta {
+    margin-top: 10px;
+}
+
+.beh {
+    margin-top: 10px;
+}
+
+.tex {padding-top: 20px;}
 
 
 @media (min-width: 760px) {
-    .profile {
-        padding-left: 50%;
+    .ful {
+        display: flex;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .knih {
+        box-sizing: border-box;
+        width: 380px;
     }
 }
 
+
 @media (min-width: 1024px) {
     header img {
-        width: 150px;
+        width: 250px;
+    }
 
+    .ful {
+        display: flex;
+    }
+
+    .ful { width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box {
+        display: flex;
+        
+    }
+
+    .knih {
+        box-sizing: border-box;
+        width: 380px;
     }
 }
