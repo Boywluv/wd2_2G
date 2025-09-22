@@ -14,6 +14,12 @@ body {
     font-variation-settings:
         "wdth" 100;
 }
+@media (min-width: 800px) {
+    .one {
+    display: flex;
+    align-items: center;
+}
+}
 
 header img {
     width: 200px;
@@ -41,7 +47,12 @@ header h2 {
 .ram {
     border: 15px solid #bea7af;
 }
-
+@media (min-width: 800px){
+    .ram {
+        max-width: 800px;
+        margin: auto;
+    }
+}
 .whit {
     padding: 40px;
 }
